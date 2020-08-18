@@ -33,7 +33,7 @@ try,catch and throw
 Question 5
 select
 repetition 
-sequence`
+sequence"
 console.log(answer)
 
 
