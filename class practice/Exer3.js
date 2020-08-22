@@ -5,22 +5,28 @@ function numberGuessGame() {
       "Please enter an integer between 1 and 100.";
    let answer = 38;
    let guess;
+   let count=0;
    do {
       guess = parseInt(prompt(message));
       if (guess < answer) {
          message = guess +
             " is too low. Please enter another integer.";
+            count++;
       }
       else if (guess > answer) {
          message = guess +
             " is too high. Please enter another integer.";
-      }
-   }
+            count++;
 
+      }
+      console.log(count);
+   }
 
    while (guess != answer);
    message = guess + " is correct!";
+
    console.log(message); 
-   
+
+}
 
    numberGuessGame()
