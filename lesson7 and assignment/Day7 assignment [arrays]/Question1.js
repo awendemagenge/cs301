@@ -1,5 +1,7 @@
 function mothersDay(){
-    let Arr=[1908,5,10]
-return Arr
+    let arr=[1908,5,10]
+return arr
+
 }
+
 console.log(mothersDay())
