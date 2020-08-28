@@ -1,9 +1,3 @@
-//Write a defining table and a JavaScript program that asks a user for a volume in quarts and then converts that value into liters.
-//Your program should correctly handle real numbers such as 7.54.
+let alias, response;
+ do { Get the user's name. alias = prompt(" What is your name?"); // Ask the user if that is really her name. response = prompt(" Are you sure " + alias + " is your name?"); } while (response != "yes"); // Say hello to the user. alert(" Hello " + alias);
 
-//Barzee, Rex A.. Programming Fundamentals in JavaScript (p. 57). Maia LLC. Kindle Edition. 
-let prompt=require('prompt-sync')();
-let VolumeInQuarts=prompt('Enter Liquid quart: ')
-VolumeInQuarts=parseFloat(VolumeInQuarts)
-let liters=3.7854
-console.log(liters*VolumeInQuarts)
